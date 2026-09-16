@@ -8,6 +8,10 @@ public class Kaulins {
 	static void gayMethod(){
 		System.out.println("GAYYYYY");
 	}
+	
+	static void straigthMethod() {
+		System.out.println("STRAIGGHTTTT");
+	}
 
 static int mestKaulinu(int reizes) {
 		int sk;
@@ -33,5 +37,6 @@ static int mestKaulinu(int reizes) {
 		scan.close();
 		
 		gayMethod();
+		straigthMethod();
 }
 }
