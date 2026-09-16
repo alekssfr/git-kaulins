@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class Kaulins {
 
+	static void gayMethod(){
+		System.out.println("GAYYYYY");
+	}
+
 static int mestKaulinu(int reizes) {
 		int sk;
 		Random rand = new Random();
@@ -27,5 +31,7 @@ static int mestKaulinu(int reizes) {
 		System.out.println("Lielákais: "+mestKaulinu(reizes));
 		
 		scan.close();
+		
+		gayMethod();
 }
 }
