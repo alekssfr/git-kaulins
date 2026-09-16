@@ -11,8 +11,9 @@ static int mestKaulinu(int reizes) {
 		int max = 0;
 		
 		for(int i=0; i<reizes; i++) {
-		sk = rand.nextInt(6)+1;
+		sk = rand.nextInt(7)+1;
 		System.out.println("Uzkrita skaitlis: "+sk);
+		if(sk == 7) System.out.println("Omg secret 7nieks");
 		if(sk > max)
 			max = sk;
 		}
